@@ -1,0 +1,20 @@
+{
+    "name": "hanslife/date",
+    "description": "检测节日",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Hanslife\\Date\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hans"
+        }
+    ],
+    "minimum-stability": "dev"
+}
