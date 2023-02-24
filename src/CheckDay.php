@@ -11,6 +11,11 @@ class CheckDay
         ]
     ];
 
+    /**
+     * 获取日期信息
+     * @param $today_date
+     * @return array|mixed
+     */
     public function getDate($today_date = '')
     {
         if (!$today_date) {
